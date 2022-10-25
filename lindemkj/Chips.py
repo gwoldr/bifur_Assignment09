@@ -9,12 +9,12 @@ Citations:
 Anything else that's relevant:
 '''
 # we need to identify the class
-class Cookies:
+class Chips:
     def setPrice(self, price):
         self.validatePrice(price)
     def validatePrice(self, price):
         if price < 0:
-            print ("Cookies taste good")
+            print ("Chips are crunchy")
         else: 
             self.price = price
 #this is the int
@@ -28,6 +28,6 @@ class Cookies:
         return "type = " + self.type
     def __str__(self):
         """
-        return a 'yummy' string representing of the object
+        return a 'salty' string representing of the object
         """
         return "type = " + self.type + "price =" + str(self.price)
