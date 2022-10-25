@@ -14,7 +14,7 @@ class Chips:
         self.validatePrice(price)
     def validatePrice(self, price):
         if price < 0:
-            print ("Chips are crunchy")
+            print ("Chips taste good")
         else: 
             self.price = price
 #this is the int
